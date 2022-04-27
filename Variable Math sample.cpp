@@ -1,46 +1,29 @@
-#include<iostream> 
-using namespace std;
-#include<math.h>
-/*
+#include<iostream>
+using namespace std; 
+
+
+void printNumber (int x) {
+    cout << " i am printing an interger " << x<< endl; 
+    
+} 
+
+
+void printNumber (float x)
+{
+    cout<< " now i am printing a float "<< x<< endl; 
+    
+}
 
 int main()
 {
-    int a; 
-    double b,c; 
-    a = 10; 
-    b= 12.35;
-    
-    c=a*b;
-    
-    cout<<" value of b is:" << c << endl;
-   // cout << a << endl; 
-    system ("pause");
+    int a = 54; 
+    float b= 32.4896; 
     
     
-    return 0; 
-}
-*/
-
-
-
-int main()
-
-{
     
-    double a;
-    double b,c,d;
+    printNumber(a); 
+    printNumber (b); 
     
-    a = 0;
-    b=0;
-    cout << " Enter a value for A: ";
-    cin >>a; 
-    cout<< " enter a value for B: ";
-    cin >> b; 
     
-    c= sqrt(a); 
-    d= sqrt(b);
-    cout<< " Value of c and b is "<< c<< " &  "<< d<< endl; 
-    system ("pause"); 
     
-    return 0;
-}
+} 
